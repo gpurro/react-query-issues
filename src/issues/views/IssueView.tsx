@@ -14,7 +14,7 @@ export const IssueView = () => {
     return (<LoadingIcon />)
 
   if ( !issueQuery.data )
-    return ( <Navigate to="./issues/list" /> )
+    return ( <Navigate to="-1" /> )
 
 
   return (
